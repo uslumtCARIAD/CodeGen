@@ -1,0 +1,20 @@
+                                                                     
+----------------------------------------------------------           
+Copy simulation files into the working directory                     
+----------------------------------------------------------           
+copy: ".\TLProj\driver\driver.c" 
+        1 file(s) copied.
+copy: ".\TLProj\driver\driver.h" 
+        1 file(s) copied.
+copy: ".\TLSim\driver_fri.c" 
+        1 file(s) copied.
+copy: ".\TLSim\driver_fri.h" 
+        1 file(s) copied.
+copy: ".\TLSim\driver_pcf.c" 
+        1 file(s) copied.
+copy: ".\TLSim\driver_frm.h" 
+        1 file(s) copied.
+copy: ".\TLSim\driver_ARfrm.c" 
+        1 file(s) copied.
+copy: ".\TLSim\driver_ARfrm.h" 
+        1 file(s) copied.

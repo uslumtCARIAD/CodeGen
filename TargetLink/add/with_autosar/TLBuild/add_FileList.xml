@@ -1,0 +1,12 @@
+<Application Name="add">
+   <FileList>
+      <File fileType="GeneratedFile" fileName="add.c">.\TLProj\add\add.c</File>
+      <File fileType="GeneratedFile" fileName="add.h">.\TLProj\add\add.h</File>
+      <File fileType="SimulationFrameFile" fileName="add_fri.c">.\TLSim\add_fri.c</File>
+      <File fileType="SimulationFrameFile" fileName="add_fri.h">.\TLSim\add_fri.h</File>
+      <File fileType="SimulationFrameFile" fileName="add_pcf.c">.\TLSim\add_pcf.c</File>
+      <File fileType="SimulationFrameFile" fileName="add_frm.h">.\TLSim\add_frm.h</File>
+      <File fileType="SimulationFrameFile" fileName="add_ARfrm.c">.\TLSim\add_ARfrm.c</File>
+      <File fileType="SimulationFrameFile" fileName="add_ARfrm.h">.\TLSim\add_ARfrm.h</File>
+   </FileList>
+</Application>

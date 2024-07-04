@@ -1,0 +1,20 @@
+                                                                     
+----------------------------------------------------------           
+Copy simulation files into the working directory                     
+----------------------------------------------------------           
+copy: ".\TLProj\add\tl_types.h" 
+        1 file(s) copied.
+copy: ".\TLProj\add\tl_basetypes.h" 
+        1 file(s) copied.
+copy: ".\TLProj\add\add.c" 
+        1 file(s) copied.
+copy: ".\TLProj\add\add.h" 
+        1 file(s) copied.
+copy: ".\TLSim\add_fri.c" 
+        1 file(s) copied.
+copy: ".\TLSim\add_fri.h" 
+        1 file(s) copied.
+copy: ".\TLSim\add_pcf.c" 
+        1 file(s) copied.
+copy: ".\TLSim\add_frm.h" 
+        1 file(s) copied.

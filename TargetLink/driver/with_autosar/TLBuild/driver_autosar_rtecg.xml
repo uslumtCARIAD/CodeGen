@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RteCGOutput xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageList />
+  <RteFileList>
+    <RteFile kind="SourceFile" additionalFile="true">
+      <FileName>RteIv.c</FileName>
+      <FilePath>.\TLBuild\driver\HostPC64_GCC</FilePath>
+    </RteFile>
+    <RteFile kind="HeaderFile" additionalFile="false">
+      <FileName>RteIv.h</FileName>
+      <FilePath>.\TLBuild\driver\HostPC64_GCC</FilePath>
+    </RteFile>
+    <RteFile kind="HeaderFile" additionalFile="false">
+      <FileName>Rte_Type.h</FileName>
+      <FilePath>.\TLBuild\driver\HostPC64_GCC</FilePath>
+    </RteFile>
+    <RteFile kind="HeaderFile" additionalFile="false">
+      <FileName>Rte_driver_SoftwareComponent.h</FileName>
+      <FilePath>.\TLBuild\driver\HostPC64_GCC</FilePath>
+    </RteFile>
+    <RteFile kind="HeaderFile" additionalFile="false">
+      <FileName>Rte_Main.h</FileName>
+      <FilePath>.\TLBuild\driver\HostPC64_GCC</FilePath>
+    </RteFile>
+    <RteFile kind="SourceFile" additionalFile="false">
+      <FileName>Rte.c</FileName>
+      <FilePath>.\TLBuild\driver\HostPC64_GCC</FilePath>
+    </RteFile>
+    <RteFile kind="HeaderFile" additionalFile="false">
+      <FileName>Rte.h</FileName>
+      <FilePath>.\TLBuild\driver\HostPC64_GCC</FilePath>
+    </RteFile>
+    <RteFile kind="HeaderFile" additionalFile="false">
+      <FileName>Platform_Types.h</FileName>
+      <FilePath>.\TLBuild\driver\HostPC64_GCC</FilePath>
+    </RteFile>
+    <RteFile kind="HeaderFile" additionalFile="false">
+      <FileName>Std_Types.h</FileName>
+      <FilePath>.\TLBuild\driver\HostPC64_GCC</FilePath>
+    </RteFile>
+  </RteFileList>
+</RteCGOutput>

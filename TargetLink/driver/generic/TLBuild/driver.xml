@@ -1,0 +1,1187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ddObj name="Build" Kind="Build" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="c:\program files\dspace targetlink 4.3\dsdd\symboltableparser\Schemas\SymTabImp.xsd">
+   <SectionsObj name="Sections" Kind="DSDDEmbeddedObject">
+         <SectionnameObj name="NULL" Kind="Section">
+             <AddressProperty Name="Address" Type="String">0x000000</AddressProperty>
+             <LengthProperty Name="Length" Type="String">0x00</LengthProperty>
+         </SectionnameObj>
+         <SectionnameObj name="text" Kind="Section">
+             <AddressProperty Name="Address" Type="String">0x0000000000001000</AddressProperty>
+             <LengthProperty Name="Length" Type="String">0x001b58</LengthProperty>
+         </SectionnameObj>
+         <SectionnameObj name="data" Kind="Section">
+             <AddressProperty Name="Address" Type="String">0x0000000000003000</AddressProperty>
+             <LengthProperty Name="Length" Type="String">0x000058</LengthProperty>
+         </SectionnameObj>
+         <SectionnameObj name="rodata" Kind="Section">
+             <AddressProperty Name="Address" Type="String">0x0000000000004000</AddressProperty>
+             <LengthProperty Name="Length" Type="String">0x0008b0</LengthProperty>
+         </SectionnameObj>
+         <SectionnameObj name="pdata" Kind="Section">
+             <AddressProperty Name="Address" Type="String">0x0000000000005000</AddressProperty>
+             <LengthProperty Name="Length" Type="String">0x000240</LengthProperty>
+         </SectionnameObj>
+         <SectionnameObj name="xdata" Kind="Section">
+             <AddressProperty Name="Address" Type="String">0x0000000000006000</AddressProperty>
+             <LengthProperty Name="Length" Type="String">0x0001cc</LengthProperty>
+         </SectionnameObj>
+         <SectionnameObj name="bss" Kind="Section">
+             <AddressProperty Name="Address" Type="String">0x0000000000007000</AddressProperty>
+             <LengthProperty Name="Length" Type="String">0x0009c0</LengthProperty>
+         </SectionnameObj>
+         <SectionnameObj name="edata" Kind="Section">
+             <AddressProperty Name="Address" Type="String">0x0000000000008000</AddressProperty>
+             <LengthProperty Name="Length" Type="String">0x000049</LengthProperty>
+         </SectionnameObj>
+         <SectionnameObj name="idata" Kind="Section">
+             <AddressProperty Name="Address" Type="String">0x0000000000009000</AddressProperty>
+             <LengthProperty Name="Length" Type="String">0x00065c</LengthProperty>
+         </SectionnameObj>
+         <SectionnameObj name="CRT" Kind="Section">
+             <AddressProperty Name="Address" Type="String">0x000000000000a000</AddressProperty>
+             <LengthProperty Name="Length" Type="String">0x000058</LengthProperty>
+         </SectionnameObj>
+         <SectionnameObj name="tls" Kind="Section">
+             <AddressProperty Name="Address" Type="String">0x000000000000b000</AddressProperty>
+             <LengthProperty Name="Length" Type="String">0x000068</LengthProperty>
+         </SectionnameObj>
+         <SectionnameObj name="reloc" Kind="Section">
+             <AddressProperty Name="Address" Type="String">0x000000000000c000</AddressProperty>
+             <LengthProperty Name="Length" Type="String">0x000068</LengthProperty>
+         </SectionnameObj>
+         <SectionnameObj name="debug_aranges" Kind="Section">
+             <AddressProperty Name="Address" Type="String">0x000000000000d000</AddressProperty>
+             <LengthProperty Name="Length" Type="String">0x000050</LengthProperty>
+         </SectionnameObj>
+         <SectionnameObj name="debug_info" Kind="Section">
+             <AddressProperty Name="Address" Type="String">0x000000000000e000</AddressProperty>
+             <LengthProperty Name="Length" Type="String">0x000e1c</LengthProperty>
+         </SectionnameObj>
+         <SectionnameObj name="debug_abbrev" Kind="Section">
+             <AddressProperty Name="Address" Type="String">0x000000000000f000</AddressProperty>
+             <LengthProperty Name="Length" Type="String">0x000089</LengthProperty>
+         </SectionnameObj>
+         <SectionnameObj name="debug_line" Kind="Section">
+             <AddressProperty Name="Address" Type="String">0x0000000000010000</AddressProperty>
+             <LengthProperty Name="Length" Type="String">0x00012d</LengthProperty>
+         </SectionnameObj>
+         <SectionnameObj name="debug_frame" Kind="Section">
+             <AddressProperty Name="Address" Type="String">0x0000000000011000</AddressProperty>
+             <LengthProperty Name="Length" Type="String">0x000048</LengthProperty>
+         </SectionnameObj>
+         <SectionnameObj name="shstrtab" Kind="Section">
+             <AddressProperty Name="Address" Type="String">0x0000000000000000</AddressProperty>
+             <LengthProperty Name="Length" Type="String">0x0000a3</LengthProperty>
+         </SectionnameObj>
+         <SectionnameObj name="symtab" Kind="Section">
+             <AddressProperty Name="Address" Type="String">0x0000000000000000</AddressProperty>
+             <LengthProperty Name="Length" Type="String">0x004b18</LengthProperty>
+         </SectionnameObj>
+         <SectionnameObj name="strtab" Kind="Section">
+             <AddressProperty Name="Address" Type="String">0x0000000000000000</AddressProperty>
+             <LengthProperty Name="Length" Type="String">0x001672</LengthProperty>
+         </SectionnameObj>
+   </SectionsObj>
+   <SymbolsObj name="Symbols" Kind="SymbolGroup">
+         <ModulenameObj name="driver" Kind="SymbolGroup">
+         </ModulenameObj>
+         <ModulenameObj name="driver_fri" Kind="SymbolGroup">
+         </ModulenameObj>
+         <ModulenameObj name="driver_pcf" Kind="SymbolGroup">
+         </ModulenameObj>
+         <ModulenameObj name="common" Kind="SymbolGroup">
+              <SymbolnameObj name="_CRT_INIT" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000001050</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="DllMainCRTStartup" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000013e0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__gcc_register_frame" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000001440</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__gcc_deregister_frame" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000014a0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="driver" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000014b0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="CallFcn_a1" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000014d0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="DllMain" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000014e0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="TsAppendError" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000014f0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="HostPC_Init" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000001540</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="TLCodeCovReached" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000015a0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="mingw_onexit" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000015e0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="atexit" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000001690</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__do_global_dtors" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000016b0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__do_global_ctors" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000016f0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__main" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000001750</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__security_init_cookie" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000001770</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__report_gsfailure" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000001850</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__dyn_tls_init" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000001980</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__tlregdtor" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000019f0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="_decode_pointer" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000001a00</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="_encode_pointer" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000001a10</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="_pei386_runtime_relocator" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000001c00</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__mingw_SEH_error_handler" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000001f00</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__mingw_init_ehandler" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000020b0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="_gnu_exception_handler" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000021a0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="___w64_mingwthr_add_key_dtor" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000023d0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="___w64_mingwthr_remove_key_dtor" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002450</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__mingw_TLScallback" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000024f0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="_ValidateImageBase" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000025f0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="_FindPESection" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002610</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="_FindPESectionByName" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002660</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__mingw_GetSectionForAddress" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002700</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__mingw_GetSectionCount" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002750</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="_FindPESectionExec" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002790</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="_GetPEImageBase" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002820</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="_IsNonwritableInCurrentImage" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002860</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__mingw_enum_import_library_names" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000028c0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="_fpreset" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002970</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="fpreset" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002970</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="DllEntryPoint" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000029c0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="_lock" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002a30</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__iob_func" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002a48</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="memcpy" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000029f0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="malloc" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000029f8</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="abort" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002a18</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="calloc" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002a10</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="signal" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000029e8</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="strncmp" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000029d8</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="_amsg_exit" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002a40</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="_initterm" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002a38</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="fwrite" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002a00</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="strlen" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000029e0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__dllonexit" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002a50</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="_unlock" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002a20</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="vfprintf" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000029d0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="free" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002a08</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__xc_z" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000a008</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">CRT</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_abort" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000009294</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__lib64_libkernel32_a_iname" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000095fc</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__data_start__" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000003000</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">data</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="___DTOR_LIST__" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002b48</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp__lock" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000927c</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_RtlVirtualUnwind" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000009214</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="SetUnhandledExceptionFilter" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002a90</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_calloc" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000929c</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="___tls_start__" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000b000</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">tls</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__xl_a" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000a028</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">CRT</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="GetLastError" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002af0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="GetSystemTimeAsFileTime" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002ad8</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="mingw_initltssuo_force" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000007600</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">bss</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__rt_psrelocs_start" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000048b0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">rodata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp___dllonexit" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000925c</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="___crt_xl_start__" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000a028</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">CRT</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_DeleteCriticalSection" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000009194</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__xl_d" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000a038</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">CRT</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="_tls_end" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000b060</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">tls</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="VirtualQuery" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002a60</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="___crt_xi_start__" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000a010</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">CRT</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp__amsg_exit" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000926c</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="___crt_xi_end__" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000a028</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">CRT</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="_tls_start" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000b000</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">tls</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__mingw_oldexcpt_handler" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000007640</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">bss</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_GetCurrentThreadId" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000091b4</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="GetCurrentProcessId" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002b00</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="_CRT_MT" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000003020</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">data</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="TlsGetValue" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002a78</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="TerminateProcess" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002a80</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__bss_start__" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000007000</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">bss</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="___RUNTIME_PSEUDO_RELOC_LIST_END__" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000048b0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">rodata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="RtlLookupFunctionEntry" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002aa0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_GetLastError" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000091bc</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_free" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000092a4</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_RtlLookupFunctionEntry" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000920c</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="VirtualProtect" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002a68</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="mingw_app_type" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000007610</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">bss</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="___crt_xp_start__" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000a048</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">CRT</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_LeaveCriticalSection" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000091ec</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_GetTickCount" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000091dc</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="___crt_xp_end__" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000a048</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">CRT</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_GetSystemTimeAsFileTime" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000091d4</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="EnterCriticalSection" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002b10</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="RtlCaptureContext" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002aa8</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__native_dllmain_reason" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000003014</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">data</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="_tls_used" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000b020</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">tls</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="UnhandledExceptionFilter" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002a70</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__IAT_end__" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000092ec</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_memcpy" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000092bc</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="Sa1_Out2" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000007970</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">bss</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_RtlAddFunctionTable" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000091fc</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="Sleep" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002a88</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__data_end__" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000003058</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">data</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_fwrite" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000092ac</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__CTOR_LIST__" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002b30</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="_head_lib64_libkernel32_a" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000009000</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="GetModuleHandleA" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002ae8</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__bss_end__" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000079c0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">bss</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__xi_z" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000a020</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">CRT</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="GetTickCount" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002ad0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="pcinit" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000a018</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">CRT</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="_head_lib64_libmsvcrt_a" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000009014</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__native_vcclrit_reason" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000003010</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">data</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="___crt_xc_end__" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000a010</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">CRT</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="RtlAddFunctionTable" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002ab0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_EnterCriticalSection" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000919c</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="_tls_index" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000760c</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">bss</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__native_startup_state" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000007988</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">bss</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="___crt_xc_start__" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000a000</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">CRT</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__onexitbegin" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000007978</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">bss</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_GetCurrentProcessId" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000091ac</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_TerminateProcess" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000922c</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_GetProcAddress" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000091cc</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="___CTOR_LIST__" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002b30</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_signal" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000092c4</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_GetModuleHandleA" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000091c4</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_QueryPerformanceCounter" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000091f4</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_strlen" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000092cc</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_malloc" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000092b4</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_InitializeCriticalSection" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000091e4</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="InitializeCriticalSection" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002ac8</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_vfprintf" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000092dc</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__IAT_start__" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000009194</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_UnhandledExceptionFilter" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000923c</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__xl_z" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000a040</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">CRT</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_SetUnhandledExceptionFilter" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000921c</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp__onexit" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000009284</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="GetProcAddress" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002ae0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__DTOR_LIST__" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002b48</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="RtlVirtualUnwind" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002a98</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__xi_a" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000a010</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">CRT</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_Sleep" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000009224</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="LeaveCriticalSection" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002ac0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__xc_a" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000a000</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">CRT</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="___crt_xt_start__" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000a048</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">CRT</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__security_cookie_complement" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000003040</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">data</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_TlsGetValue" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000009234</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="GetCurrentProcess" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002b08</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_VirtualProtect" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000009244</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__xl_c" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000a030</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">CRT</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="___tls_end__" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000b068</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">tls</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__onexitend" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000007980</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">bss</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="QueryPerformanceCounter" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002ab8</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_VirtualQuery" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000924c</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp__initterm" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000009274</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="mingw_initltsdyn_force" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000007604</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">bss</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp___iob_func" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000009264</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="Sa1_Out1" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000007972</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">bss</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__dyn_tls_init_callback" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000004070</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">rodata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_strncmp" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000092d4</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="___chkstk_ms" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002980</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__native_startup_lock" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000007990</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">bss</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="GetCurrentThreadId" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002af8</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="_onexit" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002a28</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__rt_psrelocs_end" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000048b0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">rodata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp__unlock" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000928c</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="mingw_initltsdrot_force" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000007608</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">bss</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="DeleteCriticalSection" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000002b18</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">text</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_RtlCaptureContext" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000009204</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__RUNTIME_PSEUDO_RELOC_LIST_END__" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000048b0</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">rodata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__imp_GetCurrentProcess" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x00000000000091a4</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="___crt_xt_end__" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x000000000000a048</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">CRT</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__lib64_libmsvcrt_a_iname" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000009650</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">idata</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+              <SymbolnameObj name="__security_cookie" Kind="Symbol">
+                  <AddressProperty Name="Address" Type="String">0x0000000000003030</AddressProperty>
+                  <SectionProperty Name="Section" Type="String">data</SectionProperty>
+                  <AddressKindProperty Name="AddressKind" Type="String">default</AddressKindProperty>
+                  <LengthProperty Name="Length" Type="String">0</LengthProperty>
+              </SymbolnameObj>
+         </ModulenameObj>
+       </SymbolsObj>
+   </ddObj>

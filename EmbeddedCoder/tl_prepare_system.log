@@ -1,0 +1,23 @@
+----------------------------- Registered messages since 25-Jun-2024 22:29:39 ---
+
+   Data Dictionary version:  4.3p6 (26-Feb-2020)
+        TargetLink version:  4.3p6 (26-Feb-2020)
+            tl_codegen.mexw64:  02-Mar-2020 19:40:18 (  32768 bytes)
+            MATLAB version:  9.3.0.867777 (R2017b) Update 7 24-Jul-2017
+          Simulink version:  9.0 (R2017b) 24-Jul-2017
+         Stateflow version:  9.0 (R2017b) 24-Jul-2017
+          Operating system:  Windows 10
+                 Processor:  Intel64 Family 6 Model 141 Stepping 1, Intel
+
+--------------------------------------------------------------------------------
+
+N03176  SETTING TARGETLINK FUNCTION BLOCK PROPERTIES
+        The TargetLink function on root level was parameterized for incremental 
+        code generation: The stepfunctionname property was set to 'STEP_$S'. 
+        The initfunctionname property was set to 'INIT_$S'. The 
+        restartfunctionname property was set to 'RESTART_$S'. The 
+        termfunctionname property was set to 'TERM_$S'. The subsystemid 
+        property was set to 'b'.
+        OBJECT: driver/Function
+        25-Jun-2024 22:29:39
+
